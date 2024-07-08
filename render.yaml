@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: alex-pikuMD
+    env: node
+    branch: main
+    repo: https://github.com/Piku090909/alex-pikuMD
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: SESSION_ID
+        sync: false
+      - key: MODERATORS
+        value: false
+      - key: OWNER_NAME
+        value: false
+       - key: OWNER_NUMBER
+         value: false
+      - key: COMMAND_TYPE
+        value: false
+      - key: LOGO
+        value: false
+      - key: POSTGRESQL_URL
+        value: false
+      - key: FOOTER
+        value: false
+      - key: PREFIX
+        value: false
+      - key: ALWAYS_ONLINE
+        value: false
+      - key: WORK_TYPE
+        value: false
+      - key: AUTO_STATUS_READ
+        value: false
+      - key: WELCOME
+        value: false
