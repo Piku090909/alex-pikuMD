@@ -1,4 +1,4 @@
-services:
+services: :oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com
   - type: web
     name: alex-pikuMD
     env: node
